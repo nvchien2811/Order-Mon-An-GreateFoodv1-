@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/nencualogin2"
+    android:gravity="center"
+    android:paddingBottom="20dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arizonia"
+            android:gravity="center"
+            android:text="GEATFOOD"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arizonia"
+                android:gravity="center"
+                android:paddingBottom="20dp"
+                android:text="Món ăn tuyệt vời"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:backgroundTint="@color/trang"
+            android:id="@+id/edt_tendangnhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textSize="25dp"
+            android:layout_marginBottom="50dp"
+            android:textStyle="italic"
+            android:paddingLeft="10dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:imeActionLabel="@string/action_sign_in_short"
+            android:imeOptions="actionDone"
+            android:selectAllOnFocus="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+        />
+        <EditText
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:id="@+id/edt_matkhau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mật khẩu"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:paddingLeft="10dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:autofillHints="@string/prompt_password"
+            android:imeActionLabel="@string/action_sign_in_short"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:selectAllOnFocus="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <CheckBox
+            android:buttonTint="#FFFFFF"
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Nhớ mật khẩu"/>
+    </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp"
+       android:gravity="center">
+
+       <Button
+
+           android:id="@+id/btn_dangnhap"
+           android:layout_width="130dp"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="30dp"
+           android:background="@drawable/botron_button_login"
+           android:fontFamily="@font/aladin"
+           android:text="ĐĂNG NHẬP"
+           android:textColor="#FFFFFF"
+           android:textSize="18dp" />
+       <Button
+           android:id="@+id/btn_dangky"
+           android:layout_width="130dp"
+           android:layout_height="wrap_content"
+           android:fontFamily="@font/aladin"
+           android:text="ĐĂNG KÝ"
+           android:textSize="18dp"
+           android:background="@drawable/botron_button_login"
+           android:textColor="#FFFFFF"
+          />
+
+
+   </LinearLayout>
+    <Button
+        android:drawableLeft="@drawable/ic_dngoogle2"
+        android:padding="10dp"
+        android:id="@+id/btn_dangnhapgg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aladin"
+        android:text="Đăng nhập với Google"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/botron_button_login"
+        android:textColor="#FFFFFF"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bạn không nhớ mật khẩu ?"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/quenmk"
+            android:textColor="#EBDCDC"
+            android:textStyle="italic"
+            android:text="Quên mật khẩu"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/akronim"
+        android:text="Sửa bàn ăn"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Nhập tên bàn"
+        android:id="@+id/edt_tenban_u"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Nhập số ghế"
+        android:id="@+id/edt_soghe_u"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:textSize="20dp"
+            android:id="@+id/btn_huyupdateban"
+            android:fontFamily="@font/aladin"/>
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="ĐỒNG Ý"
+            android:textSize="20dp"
+            android:id="@+id/btn_dongy_updateban"
+            android:fontFamily="@font/aladin"/>
+
+
+    </LinearLayout>
+</LinearLayout>

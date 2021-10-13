@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="15dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/akronim"
+        android:text="Thêm mã khuyến mãi"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/txt_convert_km"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Nhập mã khuyến mãi"
+        android:id="@+id/edt_add_makm"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Nhập số tiền được giảm "
+        android:id="@+id/edt_add_stdg"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Nhập số tiền tối thiểu tổng hóa đơn"
+        android:id="@+id/edt_add_toithieu"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:textSize="20dp"
+            android:id="@+id/btn_huyaddkhuyemai"
+            android:fontFamily="@font/aladin"/>
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="ĐỒNG Ý"
+            android:textSize="20dp"
+            android:id="@+id/btn_dongy_addkhuyenmai"
+            android:fontFamily="@font/aladin"/>
+
+
+    </LinearLayout>
+</LinearLayout>

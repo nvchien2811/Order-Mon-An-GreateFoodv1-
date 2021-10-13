@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "110685648711",
+    "firebase_url": "https://ordermonan-b65b2.firebaseio.com",
+    "project_id": "ordermonan-b65b2",
+    "storage_bucket": "ordermonan-b65b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110685648711:android:1c5673331d8f830eb0be62",
+        "android_client_info": {
+          "package_name": "com.sict.ordermonan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110685648711-p7khc0drcov69u80e0epjd2frem7j1pu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sict.ordermonan",
+            "certificate_hash": "2189fcbd3b1dcd38bcf4ae5383c7b7543bf0b8ae"
+          }
+        },
+        {
+          "client_id": "110685648711-lccmhn7kgkc1j8r0sot5bhfp8foacmpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4XV3EHA11BSESDH684U3IEZtzs0YAFbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110685648711-lccmhn7kgkc1j8r0sot5bhfp8foacmpl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

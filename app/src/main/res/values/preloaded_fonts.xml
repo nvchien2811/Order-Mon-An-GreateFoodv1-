@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/akronim</item>
+        <item>@font/aladin</item>
+        <item>@font/alex_brush</item>
+        <item>@font/alfa_slab_one</item>
+        <item>@font/allerta_stencil</item>
+        <item>@font/amaranth_bold</item>
+        <item>@font/anton</item>
+        <item>@font/arizonia</item>
+        <item>@font/bangers</item>
+        <item>@font/calligraffitti</item>
+        <item>@font/cedarville_cursive</item>
+    </array>
+</resources>
